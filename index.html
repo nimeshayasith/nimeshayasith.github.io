@@ -1,0 +1,510 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nimesha Yasith | Cyber Wizard Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700;900&family=Rajdhani:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div id="particles-canvas"></div>
+    <canvas id="magic-trail"></canvas>
+    
+    <!-- Magic Wand -->
+    <div id="magic-wand" class="magic-wand">
+        <div class="wand-body">
+            <div class="wand-core"></div>
+            <div class="wand-sensors">
+                <div class="sensor"></div>
+                <div class="sensor"></div>
+                <div class="sensor"></div>
+            </div>
+        </div>
+        <div class="wand-tip"></div>
+        <div class="wand-glow"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav id="cyber-nav" class="cyber-nav hidden">
+        <div class="nav-item active" data-section="home">
+            <span class="nav-glyph">⚡</span>
+            <span class="nav-text">Home</span>
+        </div>
+        <div class="nav-item" data-section="about">
+            <span class="nav-glyph">🔮</span>
+            <span class="nav-text">About Me</span>
+        </div>
+        <div class="nav-item" data-section="skills">
+            <span class="nav-glyph">⚛</span>
+            <span class="nav-text">Skills</span>
+        </div>
+        <div class="nav-item" data-section="projects">
+            <span class="nav-glyph">📜</span>
+            <span class="nav-text">Projects</span>
+        </div>
+        <div class="nav-item" data-section="volunteer">
+            <span class="nav-glyph">🏆</span>
+            <span class="nav-text">Quests</span>
+        </div>
+        <div class="nav-item" data-section="contact">
+            <span class="nav-glyph">🌀</span>
+            <span class="nav-text">Contact</span>
+        </div>
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home" class="section active">
+        <div class="cyber-cityscape"></div>
+        <div class="hero-container">
+            <div class="hero-text">
+                <h1 class="glitch-text" data-text="Hi 👋, I'm Nimesha Yasith">Hi 👋, I'm Nimesha Yasith</h1>
+                <p class="hero-subtitle">Passionate Computer Engineering Student | Exploring the Boundless World of Cyber Technology</p>
+                <div class="wand-instruction">
+                    <span class="pulse-text">Click the wand to begin your journey</span>
+                </div>
+            </div>
+            <div class="github-stats">
+                <div class="stat-panel">
+                    <div class="stat-header">GitHub Statistics</div>
+                    <div class="stat-grid">
+                        <div class="stat-item">
+                            <span class="stat-number">15+</span>
+                            <span class="stat-label">Projects</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">500+</span>
+                            <span class="stat-label">Commits</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number">10+</span>
+                            <span class="stat-label">Languages</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Me Section -->
+    <section id="about" class="section">
+        <div class="section-container">
+            <h2 class="section-title">About the Cyber Wizard</h2>
+            <div class="about-content">
+                <div class="cyber-portrait">
+                    <div class="avatar-frame">
+                        <div class="avatar-glow"></div>
+                        <div class="iot-sensors">
+                            <div class="sensor-ring"></div>
+                            <div class="sensor-ring"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bio-panels">
+                    <div class="bio-panel">
+                        <h3>Bio Matrix</h3>
+                        <p>I am a dedicated and passionate computer engineering undergraduate at the University of Ruhuna with a strong enthusiasm for Backend and DevOps development. I possess comprehensive skills in web and mobile app development, and I thrive on creating innovative solutions that combine technical proficiency with creative design.</p>
+                    </div>
+                    <div class="info-grid">
+                        <div class="info-item">
+                            <span class="info-icon">🌱</span>
+                            <div class="info-content">
+                                <strong>Currently Learning:</strong>
+                                <p>Java Spring Boot and MERN</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">🧑‍🎓</span>
+                            <div class="info-content">
+                                <strong>Education:</strong>
+                                <p>University of Ruhuna</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">💬</span>
+                            <div class="info-content">
+                                <strong>Ask me about:</strong>
+                                <p>Java</p>
+                            </div>
+                        </div>
+                        <div class="info-item">
+                            <span class="info-icon">⚡</span>
+                            <div class="info-content">
+                                <strong>Fun fact:</strong>
+                                <p>Call me Chuttimalli</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="strengths-section">
+                <h3>Core Abilities</h3>
+                <div class="strengths-grid">
+                    <div class="strength-badge">
+                        <span class="strength-icon">✨</span>
+                        <div class="strength-content">
+                            <strong>Positive Thinking</strong>
+                            <p>Maintains a positive mindset and handles difficult situations effectively</p>
+                        </div>
+                    </div>
+                    <div class="strength-badge">
+                        <span class="strength-icon">🤝</span>
+                        <div class="strength-content">
+                            <strong>Team Player</strong>
+                            <p>Successfully leads projects and competition teams to completion</p>
+                        </div>
+                    </div>
+                    <div class="strength-badge">
+                        <span class="strength-icon">🧩</span>
+                        <div class="strength-content">
+                            <strong>Problem Solver</strong>
+                            <p>Enjoys working on solutions to new problems using emerging technologies</p>
+                        </div>
+                    </div>
+                    <div class="strength-badge">
+                        <span class="strength-icon">🎨</span>
+                        <div class="strength-content">
+                            <strong>Creativity</strong>
+                            <p>Passionate about creating innovative and creative solutions</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Skill Network</h2>
+            <div class="skills-network">
+                <div class="skill-category">
+                    <h3>Programming Languages</h3>
+                    <div class="skill-nodes">
+                        <div class="skill-node" data-skill="C">C</div>
+                        <div class="skill-node" data-skill="C++">C++</div>
+                        <div class="skill-node" data-skill="C#">C#</div>
+                        <div class="skill-node highlight" data-skill="Java">Java</div>
+                        <div class="skill-node" data-skill="JavaScript">JavaScript</div>
+                        <div class="skill-node" data-skill="Python">Python</div>
+                        <div class="skill-node" data-skill="Kotlin">Kotlin</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Frontend Technologies</h3>
+                    <div class="skill-nodes">
+                        <div class="skill-node" data-skill="React">React</div>
+                        <div class="skill-node" data-skill="React Native">React Native</div>
+                        <div class="skill-node" data-skill="Next.js">Next.js</div>
+                        <div class="skill-node" data-skill="Bootstrap">Bootstrap</div>
+                        <div class="skill-node" data-skill="TailwindCSS">TailwindCSS</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Backend & DevOps</h3>
+                    <div class="skill-nodes">
+                        <div class="skill-node" data-skill="Node.js">Node.js</div>
+                        <div class="skill-node" data-skill=".NET">.NET</div>
+                        <div class="skill-node highlight" data-skill="Spring Boot">Spring Boot</div>
+                        <div class="skill-node" data-skill="Docker">Docker</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Databases</h3>
+                    <div class="skill-nodes">
+                        <div class="skill-node" data-skill="MongoDB">MongoDB</div>
+                        <div class="skill-node" data-skill="MySQL">MySQL</div>
+                        <div class="skill-node" data-skill="SQLite">SQLite</div>
+                        <div class="skill-node" data-skill="Firebase">Firebase</div>
+                        <div class="skill-node" data-skill="Neo4J">Neo4J</div>
+                    </div>
+                </div>
+                <div class="skill-category">
+                    <h3>Development Tools</h3>
+                    <div class="skill-nodes">
+                        <div class="skill-node" data-skill="Git">Git</div>
+                        <div class="skill-node" data-skill="GitHub">GitHub</div>
+                        <div class="skill-node" data-skill="Jira">Jira</div>
+                        <div class="skill-node" data-skill="Postman">Postman</div>
+                        <div class="skill-node" data-skill="Figma">Figma</div>
+                        <div class="skill-node" data-skill="Notion">Notion</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Digital Grimoire</h2>
+            <div class="projects-grid">
+                <div class="project-spellbook" data-project="1">
+                    <div class="book-cover">
+                        <div class="book-title">Stress Management System</div>
+                        <div class="book-type">Web & Mobile</div>
+                        <div class="magic-seal"></div>
+                    </div>
+                    <div class="book-content">
+                        <h3>Calm Mind - Stress Management System</h3>
+                        <p>CRUD operations with time management tools, admin panel for backend management. Integrated same backend for both web and mobile applications.</p>
+                        <div class="tech-runes">
+                            <span class="rune">Node.js</span>
+                            <span class="rune">React</span>
+                            <span class="rune">Flutter</span>
+                            <span class="rune">Render</span>
+                            <span class="rune">Jira</span>
+                            <span class="rune">Figma</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nimeshayasith/StressfreeZone_Web.git" target="_blank" class="spell-link">Web GitHub</a>
+                            <a href="https://github.com/nimeshayasith/StressFreeZone_mobile" target="_blank" class="spell-link">Mobile GitHub</a>
+                            <a href="https://www.figma.com/design/sFPOhTnwgbLJ8LL4O13wAo/Figma-design?m=auto&t=AZPlJ5lml3tD6DfL-1" target="_blank" class="spell-link">Figma</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-spellbook" data-project="2">
+                    <div class="book-cover iot-themed">
+                        <div class="book-title">AntiSleep Alarm & Smart Glasses</div>
+                        <div class="book-type">IoT Hardware</div>
+                        <div class="magic-seal iot-seal"></div>
+                    </div>
+                    <div class="book-content">
+                        <h3>Smart Safety IoT Device</h3>
+                        <p>Developed a device that detects when the driver falls asleep and emits an alert. Features smart glasses for blind people with ultrasonic navigation.</p>
+                        <div class="tech-runes">
+                            <span class="rune iot">Arduino Nano</span>
+                            <span class="rune iot">IR Sensor</span>
+                            <span class="rune iot">Buzzer</span>
+                            <span class="rune iot">Ultrasonic</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nimeshayasith/Eminance-4.0_competition.git" target="_blank" class="spell-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-spellbook" data-project="3">
+                    <div class="book-cover">
+                        <div class="book-title">Personal Finance Tracker</div>
+                        <div class="book-type">Web Application</div>
+                        <div class="magic-seal"></div>
+                    </div>
+                    <div class="book-content">
+                        <h3>Financial Management Portal</h3>
+                        <p>Created a web app for tracking income, expenses, and managing budgets with intuitive dashboard and analytics.</p>
+                        <div class="tech-runes">
+                            <span class="rune">HTML</span>
+                            <span class="rune">CSS</span>
+                            <span class="rune">JavaScript</span>
+                            <span class="rune">GitHub</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nimeshayasith/trackme.git" target="_blank" class="spell-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-spellbook" data-project="4">
+                    <div class="book-cover">
+                        <div class="book-title">Student Registration System</div>
+                        <div class="book-type">Desktop App</div>
+                        <div class="magic-seal"></div>
+                    </div>
+                    <div class="book-content">
+                        <h3>Academic Management Suite</h3>
+                        <p>Desktop application for student management with CRUD operations, built using MVVM pattern for clean architecture.</p>
+                        <div class="tech-runes">
+                            <span class="rune">C#</span>
+                            <span class="rune">Windows Forms</span>
+                            <span class="rune">MVVM</span>
+                            <span class="rune">SQLite</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nimeshayasith/Student_Registration_System-WPF-4624-4608-.git" target="_blank" class="spell-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-spellbook" data-project="5">
+                    <div class="book-cover ml-themed">
+                        <div class="book-title">IPL Win Prediction</div>
+                        <div class="book-type">Machine Learning</div>
+                        <div class="accuracy-badge">80%+ Accuracy</div>
+                        <div class="magic-seal ml-seal"></div>
+                    </div>
+                    <div class="book-content">
+                        <h3>Sports Analytics AI</h3>
+                        <p>Predicted IPL match outcomes with over 80% accuracy using advanced machine learning algorithms and statistical analysis.</p>
+                        <div class="tech-runes">
+                            <span class="rune ml">Python</span>
+                            <span class="rune ml">Scikit-Learn</span>
+                            <span class="rune ml">Logistic Regression</span>
+                            <span class="rune ml">Random Forest</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Parakkrama24/machinelaerningProject.git" target="_blank" class="spell-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-spellbook" data-project="6">
+                    <div class="book-cover">
+                        <div class="book-title">Online Quiz App</div>
+                        <div class="book-type">Full-Stack Web</div>
+                        <div class="magic-seal"></div>
+                    </div>
+                    <div class="book-content">
+                        <h3>Interactive Learning Platform</h3>
+                        <p>Online quiz platform with dynamic quiz creation and real-time tracking, featuring comprehensive admin dashboard.</p>
+                        <div class="tech-runes">
+                            <span class="rune">Java</span>
+                            <span class="rune">Spring Boot</span>
+                            <span class="rune">MySQL</span>
+                            <span class="rune">React</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/nimeshayasith/Online_quiz_App.git" target="_blank" class="spell-link">GitHub</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Volunteer Experience Section -->
+    <section id="volunteer" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Completed Quests</h2>
+            <div class="quests-timeline">
+                <div class="quest-item">
+                    <div class="quest-badge">
+                        <span class="quest-icon">🏆</span>
+                        <div class="quest-glow"></div>
+                    </div>
+                    <div class="quest-content">
+                        <h3>Xbotics Competition</h3>
+                        <div class="quest-role">Organizing Committee Member</div>
+                        <div class="quest-duration">Aug 2023 - Oct 2023</div>
+                        <p>Coordinated with school category team and managed event arrangements. Enhanced teamwork and event organization skills.</p>
+                        <a href="https://www.facebook.com/profile.php?id=100009492125998&mibextid=ZbWKwL" target="_blank" class="quest-link">View Achievement</a>
+                    </div>
+                </div>
+                <div class="quest-item">
+                    <div class="quest-badge">
+                        <span class="quest-icon">💻</span>
+                        <div class="quest-glow"></div>
+                    </div>
+                    <div class="quest-content">
+                        <h3>Axiom Coding Challenge</h3>
+                        <div class="quest-role">Technical Team Member</div>
+                        <div class="quest-duration">Sep 2024 - Oct 2024</div>
+                        <p>Designed and reviewed technical challenges for the competition. Provided technical support during live event sessions.</p>
+                        <a href="https://github.com/nimeshayasith/Axiom-2.0.git" target="_blank" class="quest-link">View Project</a>
+                    </div>
+                </div>
+                <div class="quest-item">
+                    <div class="quest-badge">
+                        <span class="quest-icon">🤝</span>
+                        <div class="quest-glow"></div>
+                    </div>
+                    <div class="quest-content">
+                        <h3>Mehewara Volunteer Program</h3>
+                        <div class="quest-role">Volunteer Member</div>
+                        <div class="quest-duration">Mar 2023 - Mar 2024</div>
+                        <p>Assisted with the University program and helped O/L students in the district. Contributing to educational development in the community.</p>
+                        <a href="https://www.instagram.com/s/aGlnaGxpZ2h0OjE4MDEyMTAzOTQwMjEzNDAz?story_media_id=3389458921856020810_44439011523&igsh=eW0yenc5cmZ5enF2" target="_blank" class="quest-link">View Story</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="section-container">
+            <h2 class="section-title">Cyber Portal</h2>
+            <div class="contact-content">
+                <div class="portal-container">
+                    <div class="portal-frame">
+                        <div class="portal-rings">
+                            <div class="ring ring-1"></div>
+                            <div class="ring ring-2"></div>
+                            <div class="ring ring-3"></div>
+                        </div>
+                        <div class="contact-form">
+                            <h3>Send Magical Signal</h3>
+                            <form id="contact-form">
+                                <div class="input-group">
+                                    <input type="text" id="name" name="name" required>
+                                    <label for="name">Your Name</label>
+                                    <div class="input-glow"></div>
+                                </div>
+                                <div class="input-group">
+                                    <input type="email" id="email" name="email" required>
+                                    <label for="email">Your Email</label>
+                                    <div class="input-glow"></div>
+                                </div>
+                                <div class="input-group">
+                                    <textarea id="message" name="message" rows="5" required></textarea>
+                                    <label for="message">Your Message</label>
+                                    <div class="input-glow"></div>
+                                </div>
+                                <button type="submit" class="portal-button">
+                                    <span>Transmit Signal</span>
+                                    <div class="button-glow"></div>
+                                </button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="contact-info">
+                    <div class="info-panel">
+                        <h3>Direct Communication</h3>
+                        <div class="contact-item">
+                            <span class="contact-icon">📧</span>
+                            <a href="mailto:nimeshayasith@gmail.com">nimeshayasith@gmail.com</a>
+                        </div>
+                        <div class="contact-item">
+                            <span class="contact-icon">📄</span>
+                            <a href="https://github.com/nimeshayasith/nimeshayasith/blob/main/Nimesha_Yasith_SE_Internship.pdf" target="_blank">View Resume</a>
+                        </div>
+                    </div>
+                    <div class="social-constellation">
+                        <h3>Social Network</h3>
+                        <div class="social-grid">
+                            <a href="https://www.youtube.com/channel/UCKlC_6m88sM4wse36rB1Zxw" target="_blank" class="social-node youtube">
+                                <span>📺</span>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="https://www.linkedin.com/in/nimesha-yasith-568a76290" target="_blank" class="social-node linkedin">
+                                <span>💼</span>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="https://discord.gg/VyC5NqjR" target="_blank" class="social-node discord">
+                                <span>💬</span>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="https://www.hackerrank.com/profile/EG_2021_4624" target="_blank" class="social-node hackerrank">
+                                <span>⚔️</span>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="https://fb.com/Nimesha Yasith" target="_blank" class="social-node facebook">
+                                <span>👥</span>
+                                <div class="social-glow"></div>
+                            </a>
+                            <a href="https://www.instagram.com/Nimesha Yasith/" target="_blank" class="social-node instagram">
+                                <span>📸</span>
+                                <div class="social-glow"></div>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <script src="app.js"></script>
+</body>
+</html>
